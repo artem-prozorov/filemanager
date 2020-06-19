@@ -32,7 +32,7 @@ class Manager
     }
 
     /**
-     * Returns true if file exists
+     * file_exists wrapper
      *
      * @access	public
      * @param	string	$filename	
@@ -94,7 +94,7 @@ class Manager
     }
 
     /**
-     * getTempDir.
+     * sys_get_temp_dir wrapper
      *
      * @access	public
      * @return	string
