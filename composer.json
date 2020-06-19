@@ -1,0 +1,29 @@
+{
+    "name": "prozorov/filemanager",
+    "description": "Wrapper for file operations",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artem Prozorov",
+            "email": "artem.g.prozorov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": ">=8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prozorov\\Filemanager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Prozorov\\Filemanager\\Tests\\": "tests/Unit"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
