@@ -116,4 +116,15 @@ class Manager
     {
         return unlink($filename, $context);
     }
+    
+    /**
+     * is_dir wrapper
+     *
+     * @access	public
+     * @return	bool
+     */
+    public function isDir(): bool
+    {
+        return is_dir();
+    }
 }
