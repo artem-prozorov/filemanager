@@ -108,7 +108,7 @@ class Manager
      * Unlink wrapper
      *
      * @access	public
-     * @param	string  	$filename	
+     * @param	string  	$filename
      * @param	resource	$context 	
      * @return	bool
      */
@@ -121,10 +121,11 @@ class Manager
      * is_dir wrapper
      *
      * @access	public
+     * @param	string  	$path
      * @return	bool
      */
-    public function isDir(): bool
+    public function isDir(string $path): bool
     {
-        return is_dir();
+        return is_dir($path);
     }
 }
